@@ -33,7 +33,7 @@ body{
 .header{
     width: 100%;
     height: 60px;
-    background: #1b1a17;
+    background: #103f4b;
     border-radius: 10px 10px 0 0 ;
     display: flex;
     align-items: center;
@@ -102,8 +102,13 @@ input{
     height: 60px;
     background: var(--sec_bg);
     color: var(--color);
-    border: 0.5px solid rgb(0, 0, 0, 0.200);
+    background-color: rgb(178, 201, 209);
+    border: 0.5px solid rgba(34, 14, 14, 0.2);
     font-size: 1.5rem;
+}
+.row_linha input:active{
+    box-shadow: 2px 2px 2px rgba(36, 187, 6, 0.904);
+    animation: anim .5s;
 }
 .active{
     animation: anim .4s;
